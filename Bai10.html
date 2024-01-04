@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Sign Up</title>
+  <link rel="stylesheet" href="Bai10.css">
+</head>
+<body>
+  <form action="/signup" method="post">
+    <div class="container">
+      <h1>Facebook</h1>
+      <h2>Tạo tài khoản mới</h2>
+      <div class="input-group">
+        <input type="text" name="name" placeholder="Tên" required>
+      </div>
+      <div class="input-group">
+        <input type="email" name="email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <input type="password" name="password" placeholder="Mật khẩu" required>
+      </div>
+      <div class="input-group">
+        <input type="password" name="confirm_password" placeholder="Xác nhận mật khẩu" required>
+      </div>
+      <div class="input-group">
+        <input type="date" name="birthday" placeholder="Ngày sinh" required>
+      </div>
+      <div class="input-group">
+        <label for="male">Nam</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        
+        <label for="female">Nữ</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+      </div>
+      <button type="submit">Tạo tài khoản</button>
+    </div>
+  </form>
+</body>
+</html>

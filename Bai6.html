@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://example.com/process-form.php" method="post">
+        <h1>Đăng ký thông tin người sử dụng</h1>
+      
+        <div class="field">
+          <label for="username">Tên đăng nhập</label>
+          <input type="text" name="username" id="username">
+        </div>
+      
+        <div class="field">
+          <label for="password">Mật khẩu</label>
+          <input type="password" name="password" id="password">
+        </div>
+      
+        <div class="field">
+          <label for="repassword">Nhập lại mật khẩu</label>
+          <input type="password" name="repassword" id="repassword">
+        </div>
+      
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+      
+        <div class="field">
+          <label for="gender">Giới tính</label>
+          <input type="radio" name="gender" value="male" id="male">
+          <label for="male">Nam</label>
+          <input type="radio" name="gender" value="female" id="female">
+          <label for="female">Nữ</label>
+        </div>
+      
+        <div class="field">
+          <label for="age">Độ tuổi</label>
+          <select name="age" id="age">
+            <option value="under_13">Dưới 13 tuổi</option>
+            <option value="13_to_17">Từ 13 đến 17 tuổi</option>
+            <option value="18_to_25">Từ 18 đến 25 tuổi</option>
+            <option value="over_25">Trên 25 tuổi</option>
+          </select>
+        </div>
+      
+        <div class="field">
+          <label for="hobbies">Sở thích của bạn</label>
+          <input type="checkbox" name="hobbies[]" value="music" id="music">
+          <label for="music">Âm nhạc</label>
+          <input type="checkbox" name="hobbies[]" value="game" id="game">
+          <label for="game">Game</label>
+          <input type="checkbox" name="hobbies[]" value="sports" id="sports">
+          <label for="sports">Thể thao</label>
+          <input type="checkbox" name="hobbies[]" value="travel" id="travel">
+          <label for="travel">Du lịch</label>
+        </div>
+      
+        <div class="field">
+          <label for="occupation">Nghề nghiệp</label>
+          <select name="occupation" id="occupation">
+            <option value="student">Sinh viên</option>
+            <option value="employee">Nhân viên</option>
+            <option value="businessman">Doanh nhân</option>
+            <option value="artist">Nghệ sĩ</option>
+          </select>
+        </div>
+      
+        <div class="field">
+          <label for="best_friend">Mô tả về bạn thân bạn...</label>
+          <textarea name="best_friend" id="best_friend"></textarea>
+        </div>
+      
+        <div class="field">
+          <label for="about_me">Mô tả bản thân...</label>
+          <textarea name="about_me" id="about_me"></textarea>
+</body>
+</html>
